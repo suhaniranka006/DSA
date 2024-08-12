@@ -3,48 +3,38 @@ public:
 
 //brute force
 //tc : onlogn
+
+//check submisiton
+
+//tc oklogk
 int k;
-vector<int>stream;
+ priority_queue<int, vector<int>, greater<int>> minHeap;
     KthLargest(int k, vector<int>& nums) {
         this->k=k;
 
         for(auto num:nums){
-            stream.push_back(num);
+            add(num);
         }
 
         //sorted in descending order
-        sort(stream.begin(),stream.end());
+
 
     }
     
 
-    int getIndex(int val){
-        int start=0;
-        int end=stream.size()-1;
-
-        while(start<=end){
-            int mid=(start+end)/2;
-
-            if(stream[mid]==val){
-                return mid;
-            }
-            else if(stream[mid]>val){
-                end=mid-1;
-            }
-            else{
-                start=mid+1;
-            }
-
-        }
-        return start;
-    }
+    
 
 
     int add(int val) {
-        int index=getIndex(val);
-        stream.insert(stream.begin()+index,val);
-        return stream[stream.size()-k];
-        
+       
+       if (minHeap.size() < k || minHeap.top() < val) {
+            minHeap.push(val);
+            if (minHeap.size() > k) {
+                minHeap.pop();
+            }
+        }
+        return minHeap.top();
+    
     }
 };
 
