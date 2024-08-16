@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0040-combination-sum-ii](https://github.com/suhaniranka006/DSA/tree/master/0040-combination-sum-ii) |
 | [0200-number-of-islands](https://github.com/suhaniranka006/DSA/tree/master/0200-number-of-islands) |
+| [0624-maximum-distance-in-arrays](https://github.com/suhaniranka006/DSA/tree/master/0624-maximum-distance-in-arrays) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/suhaniranka006/DSA/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0890-lemonade-change](https://github.com/suhaniranka006/DSA/tree/master/0890-lemonade-change) |
 | [0999-regions-cut-by-slashes](https://github.com/suhaniranka006/DSA/tree/master/0999-regions-cut-by-slashes) |
@@ -86,5 +87,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0624-maximum-distance-in-arrays](https://github.com/suhaniranka006/DSA/tree/master/0624-maximum-distance-in-arrays) |
 | [0890-lemonade-change](https://github.com/suhaniranka006/DSA/tree/master/0890-lemonade-change) |
 <!---LeetCode Topics End-->
