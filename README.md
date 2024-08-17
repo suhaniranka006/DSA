@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0890-lemonade-change](https://github.com/suhaniranka006/DSA/tree/master/0890-lemonade-change) |
 | [0999-regions-cut-by-slashes](https://github.com/suhaniranka006/DSA/tree/master/0999-regions-cut-by-slashes) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/suhaniranka006/DSA/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
+| [2067-maximum-number-of-points-with-cost](https://github.com/suhaniranka006/DSA/tree/master/2067-maximum-number-of-points-with-cost) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -89,4 +90,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0624-maximum-distance-in-arrays](https://github.com/suhaniranka006/DSA/tree/master/0624-maximum-distance-in-arrays) |
 | [0890-lemonade-change](https://github.com/suhaniranka006/DSA/tree/master/0890-lemonade-change) |
+## Dynamic Programming
+|  |
+| ------- |
+| [2067-maximum-number-of-points-with-cost](https://github.com/suhaniranka006/DSA/tree/master/2067-maximum-number-of-points-with-cost) |
 <!---LeetCode Topics End-->
