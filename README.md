@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0719-find-k-th-smallest-pair-distance](https://github.com/suhaniranka006/DSA/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0890-lemonade-change](https://github.com/suhaniranka006/DSA/tree/master/0890-lemonade-change) |
 | [0999-regions-cut-by-slashes](https://github.com/suhaniranka006/DSA/tree/master/0999-regions-cut-by-slashes) |
+| [1325-path-with-maximum-probability](https://github.com/suhaniranka006/DSA/tree/master/1325-path-with-maximum-probability) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/suhaniranka006/DSA/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/suhaniranka006/DSA/tree/master/2067-maximum-number-of-points-with-cost) |
 ## Depth-First Search
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/suhaniranka006/DSA/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1325-path-with-maximum-probability](https://github.com/suhaniranka006/DSA/tree/master/1325-path-with-maximum-probability) |
 ## Binary Tree
 |  |
 | ------- |
@@ -94,4 +96,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2067-maximum-number-of-points-with-cost](https://github.com/suhaniranka006/DSA/tree/master/2067-maximum-number-of-points-with-cost) |
+## Graph
+|  |
+| ------- |
+| [1325-path-with-maximum-probability](https://github.com/suhaniranka006/DSA/tree/master/1325-path-with-maximum-probability) |
+## Shortest Path
+|  |
+| ------- |
+| [1325-path-with-maximum-probability](https://github.com/suhaniranka006/DSA/tree/master/1325-path-with-maximum-probability) |
 <!---LeetCode Topics End-->
