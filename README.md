@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0040-combination-sum-ii](https://github.com/suhaniranka006/DSA/tree/master/0040-combination-sum-ii) |
 | [0200-number-of-islands](https://github.com/suhaniranka006/DSA/tree/master/0200-number-of-islands) |
+| [0209-minimum-size-subarray-sum](https://github.com/suhaniranka006/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0624-maximum-distance-in-arrays](https://github.com/suhaniranka006/DSA/tree/master/0624-maximum-distance-in-arrays) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/suhaniranka006/DSA/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0890-lemonade-change](https://github.com/suhaniranka006/DSA/tree/master/0890-lemonade-change) |
@@ -62,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/suhaniranka006/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0450-delete-node-in-a-bst](https://github.com/suhaniranka006/DSA/tree/master/0450-delete-node-in-a-bst) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/suhaniranka006/DSA/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/suhaniranka006/DSA/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -128,4 +130,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1786-count-the-number-of-consistent-strings](https://github.com/suhaniranka006/DSA/tree/master/1786-count-the-number-of-consistent-strings) |
+## Sliding Window
+|  |
+| ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/suhaniranka006/DSA/tree/master/0209-minimum-size-subarray-sum) |
+## Prefix Sum
+|  |
+| ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/suhaniranka006/DSA/tree/master/0209-minimum-size-subarray-sum) |
 <!---LeetCode Topics End-->
