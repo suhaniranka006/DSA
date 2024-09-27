@@ -43,10 +43,12 @@ public:
         if(current->next!=NULL){
         prev->next=current->next;
         current->next=NULL;
+        delete current;
         
         }
         else{
             prev->next=NULL;
+            delete current;
         }
 
 
