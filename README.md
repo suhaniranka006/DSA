@@ -139,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/suhaniranka006/DSA/tree/master/0070-climbing-stairs) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/suhaniranka006/DSA/tree/master/2067-maximum-number-of-points-with-cost) |
 ## Graph
 |  |
@@ -203,9 +204,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/suhaniranka006/DSA/tree/master/0002-add-two-numbers) |
+| [0070-climbing-stairs](https://github.com/suhaniranka006/DSA/tree/master/0070-climbing-stairs) |
 ## Recursion
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/suhaniranka006/DSA/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/suhaniranka006/DSA/tree/master/0021-merge-two-sorted-lists) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/suhaniranka006/DSA/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
