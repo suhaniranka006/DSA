@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/suhaniranka006/DSA/tree/master/0046-permutations) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/suhaniranka006/DSA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/suhaniranka006/DSA/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0198-house-robber](https://github.com/suhaniranka006/DSA/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/suhaniranka006/DSA/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/suhaniranka006/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0624-maximum-distance-in-arrays](https://github.com/suhaniranka006/DSA/tree/master/0624-maximum-distance-in-arrays) |
@@ -140,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/suhaniranka006/DSA/tree/master/0070-climbing-stairs) |
+| [0198-house-robber](https://github.com/suhaniranka006/DSA/tree/master/0198-house-robber) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/suhaniranka006/DSA/tree/master/2067-maximum-number-of-points-with-cost) |
 ## Graph
 |  |
