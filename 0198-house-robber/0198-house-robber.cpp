@@ -74,32 +74,56 @@ public:
     int rob(vector<int>&nums){
         int n=nums.size();
         vector<int>dp(n,-1);
-        return f(n-1,nums,dp);
+       // return f(n-1,nums,dp);
+
+       return f(n-1,nums);
     }
 
-    int f(int ind,vector<int>&nums,vector<int>&dp){
-        dp[0]=nums[0];
-        int neg=0;
+    // int f(int ind,vector<int>&nums,vector<int>&dp){
+    //     dp[0]=nums[0];
+    //     int neg=0;
+
+    //     for(int i=1;i<nums.size();i++){
+    //         int take=nums[i];
+    //         if(i>1){
+    //             take+=dp[i-2];
+    //         }
+    //         int nonTake=0+dp[i-1];
+
+    //         dp[i]=max(take,nonTake);
+
+    //     }
+
+    //     return dp[ind];
+    // }
+
+
+
+
+
+
+    //space optimisation
+    //tc o(n)
+    //sc o(1)
+
+    int f(int ind,vector<int>&nums){
+        int prev=nums[0];
+        int prev2=0;
 
         for(int i=1;i<nums.size();i++){
             int take=nums[i];
             if(i>1){
-                take+=dp[i-2];
+                take+=prev2;
             }
-            int nonTake=0+dp[i-1];
+            int nonTake=prev;
 
-            dp[i]=max(take,nonTake);
-
+            int curr=max(take,nonTake);
+            prev2=prev;
+            prev=curr;
         }
 
-        return dp[ind];
+        return prev;
     }
-
-
-
-
-
-
 
 
 };
