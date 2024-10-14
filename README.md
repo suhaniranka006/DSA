@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/suhaniranka006/DSA/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/suhaniranka006/DSA/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/suhaniranka006/DSA/tree/master/0046-permutations) |
+| [0063-unique-paths-ii](https://github.com/suhaniranka006/DSA/tree/master/0063-unique-paths-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/suhaniranka006/DSA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/suhaniranka006/DSA/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0198-house-robber](https://github.com/suhaniranka006/DSA/tree/master/0198-house-robber) |
@@ -52,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0063-unique-paths-ii](https://github.com/suhaniranka006/DSA/tree/master/0063-unique-paths-ii) |
 | [0200-number-of-islands](https://github.com/suhaniranka006/DSA/tree/master/0200-number-of-islands) |
 | [0999-regions-cut-by-slashes](https://github.com/suhaniranka006/DSA/tree/master/0999-regions-cut-by-slashes) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/suhaniranka006/DSA/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
@@ -142,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/suhaniranka006/DSA/tree/master/0062-unique-paths) |
+| [0063-unique-paths-ii](https://github.com/suhaniranka006/DSA/tree/master/0063-unique-paths-ii) |
 | [0070-climbing-stairs](https://github.com/suhaniranka006/DSA/tree/master/0070-climbing-stairs) |
 | [0198-house-robber](https://github.com/suhaniranka006/DSA/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/suhaniranka006/DSA/tree/master/0213-house-robber-ii) |
