@@ -84,18 +84,43 @@ public:
 
 
 
-    unordered_map<ListNode*,int>vis;
+    // unordered_map<ListNode*,int>vis;
 
-    ListNode* temp=head;
-    while(temp!=NULL){
-        if(vis[temp]==true){
-            return true;
+    // ListNode* temp=head;
+    // while(temp!=NULL){
+    //     if(vis[temp]==true){
+    //         return true;
             
+    //     }
+    //     else{
+    //         vis[temp]=true;
+    //         temp=temp->next;
+    //     }
+    // }
+    // return false;
+
+
+
+
+    ListNode* slow=head;
+    ListNode* fast=head;
+
+    if(head==NULL){
+        return false;
+    }
+
+   
+    while(slow!=NULL && fast!=NULL){
+        fast=fast->next;
+        if(fast==NULL){
+            break;
         }
-        else{
-            vis[temp]=true;
-            temp=temp->next;
+        fast=fast->next;
+        slow=slow->next;
+        if(slow==fast){
+            return true;
         }
+
     }
     return false;
     }
