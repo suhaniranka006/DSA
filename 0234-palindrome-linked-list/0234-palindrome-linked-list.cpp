@@ -39,27 +39,52 @@ public:
     //  return true;
 
 
-        vector<int>v;
+    //     vector<int>v;
 
-        while(head!=NULL){
-            v.push_back(head->val);
-            head=head->next;
+    //     while(head!=NULL){
+    //         v.push_back(head->val);
+    //         head=head->next;
+    //     }
+    //     int slow=0;
+    //     int fast=v.size()-1;
+
+    //     while(slow<=fast){
+    //         if(v[slow]==v[fast]){
+    //             slow++;
+    //             fast--;
+    //         }
+    //         else{
+    //             return false;
+    //         }
+    //     }
+    //     return true;
+    // }
+
+    //tc o(n)
+    //sc o(n)
+
+
+    //by stack
+    stack<int>s;
+    ListNode* curr=head;
+
+    while(curr!=NULL){
+        s.push(curr->val);
+        curr=curr->next;
+    }
+
+    ListNode* st=head;
+    while(!s.empty()){
+        if(s.top()==st->val){
+            s.pop();
+            st=st->next;
+            
         }
-        int slow=0;
-        int fast=v.size()-1;
-
-        while(slow<=fast){
-            if(v[slow]==v[fast]){
-                slow++;
-                fast--;
-            }
-            else{
-                return false;
-            }
+        else{
+            return false;
         }
-        return true;
-
-
-    
+        
+    }
+    return true;
     }
 };
