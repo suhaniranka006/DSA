@@ -51,22 +51,35 @@ public:
         //     }
 
 
-        ListNode* prev=NULL;
-        ListNode* curr=head;
-        ListNode* next=NULL;
+//tc o(n)
+//sc o(1)
 
-        while(curr!=NULL){
-            next=curr->next;
-            curr->next=prev;
-            prev=curr;
-            curr=next;
-        }
-        return prev;
+    //     ListNode* prev=NULL;
+    //     ListNode* curr=head;
+    //     ListNode* next=NULL;
+
+    //     while(curr!=NULL){
+    //         next=curr->next;
+    //         curr->next=prev;
+    //         prev=curr;
+    //         curr=next;
+    //     }
+    //     return prev;
+    // }
+
+
+    //recursive solution
+    if(head==NULL || head->next==NULL){
+        return head;
     }
 
+    ListNode* res=reverseList(head->next);
+    head->next->next=head;
+    head->next=NULL;
+    return res;
 
     
-        
+    }    
 
     
 };
