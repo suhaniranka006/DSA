@@ -136,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0086-partition-list](https://github.com/suhaniranka006/DSA/tree/master/0086-partition-list) |
 | [0141-linked-list-cycle](https://github.com/suhaniranka006/DSA/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/suhaniranka006/DSA/tree/master/0142-linked-list-cycle-ii) |
+| [0234-palindrome-linked-list](https://github.com/suhaniranka006/DSA/tree/master/0234-palindrome-linked-list) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/suhaniranka006/DSA/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0908-middle-of-the-linked-list](https://github.com/suhaniranka006/DSA/tree/master/0908-middle-of-the-linked-list) |
 ## Sorting
@@ -220,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/suhaniranka006/DSA/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/suhaniranka006/DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0206-reverse-linked-list](https://github.com/suhaniranka006/DSA/tree/master/0206-reverse-linked-list) |
+| [0234-palindrome-linked-list](https://github.com/suhaniranka006/DSA/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/suhaniranka006/DSA/tree/master/0237-delete-node-in-a-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/suhaniranka006/DSA/tree/master/0908-middle-of-the-linked-list) |
 ## Math
@@ -234,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/suhaniranka006/DSA/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/suhaniranka006/DSA/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/suhaniranka006/DSA/tree/master/0206-reverse-linked-list) |
+| [0234-palindrome-linked-list](https://github.com/suhaniranka006/DSA/tree/master/0234-palindrome-linked-list) |
 ## Memoization
 |  |
 | ------- |
@@ -242,4 +245,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/suhaniranka006/DSA/tree/master/0062-unique-paths) |
+## Stack
+|  |
+| ------- |
+| [0234-palindrome-linked-list](https://github.com/suhaniranka006/DSA/tree/master/0234-palindrome-linked-list) |
 <!---LeetCode Topics End-->
