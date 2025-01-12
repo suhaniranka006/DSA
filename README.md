@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/suhaniranka006/DSA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/suhaniranka006/DSA/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0120-triangle](https://github.com/suhaniranka006/DSA/tree/master/0120-triangle) |
+| [0189-rotate-array](https://github.com/suhaniranka006/DSA/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/suhaniranka006/DSA/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/suhaniranka006/DSA/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/suhaniranka006/DSA/tree/master/0209-minimum-size-subarray-sum) |
@@ -139,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0086-partition-list](https://github.com/suhaniranka006/DSA/tree/master/0086-partition-list) |
 | [0141-linked-list-cycle](https://github.com/suhaniranka006/DSA/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/suhaniranka006/DSA/tree/master/0142-linked-list-cycle-ii) |
+| [0189-rotate-array](https://github.com/suhaniranka006/DSA/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/suhaniranka006/DSA/tree/master/0234-palindrome-linked-list) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/suhaniranka006/DSA/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0908-middle-of-the-linked-list](https://github.com/suhaniranka006/DSA/tree/master/0908-middle-of-the-linked-list) |
@@ -234,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/suhaniranka006/DSA/tree/master/0002-add-two-numbers) |
 | [0062-unique-paths](https://github.com/suhaniranka006/DSA/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/suhaniranka006/DSA/tree/master/0070-climbing-stairs) |
+| [0189-rotate-array](https://github.com/suhaniranka006/DSA/tree/master/0189-rotate-array) |
 | [1635-number-of-good-pairs](https://github.com/suhaniranka006/DSA/tree/master/1635-number-of-good-pairs) |
 ## Recursion
 |  |
