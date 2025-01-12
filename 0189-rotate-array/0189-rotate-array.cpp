@@ -68,24 +68,37 @@ public:
 
 
     
-        vector<int>temp;
-        int n=a.size();
+    //     vector<int>temp;
+    //     int n=a.size();
 
-       d%=n;
+    //    d%=n;
         
-            for(int i=n-1;i>=n-d;i--){
-                temp.push_back(a[i]);
-            }
+    //         for(int i=n-1;i>=n-d;i--){
+    //             temp.push_back(a[i]);
+    //         }
 
-            reverse(temp.begin(),temp.end());
+    //         reverse(temp.begin(),temp.end());
 
-            for(int i=0;i<n-d;i++){
-                temp.push_back(a[i]);
-            }
+    //         for(int i=0;i<n-d;i++){
+    //             temp.push_back(a[i]);
+    //         }
 
-        for(int i=0;i<temp.size();i++){
-            a[i]=temp[i];
-        }
+    //     for(int i=0;i<temp.size();i++){
+    //         a[i]=temp[i];
+    //     }
+
+        //tc o(n)
+        //sc o(n)
+
+
+        //optimised
+        int n=a.size();
+        d%=n;
+        reverse(a.begin()+n-d,a.end());
+
+        reverse(a.begin(),a.begin()+n-d);
+
+        reverse(a.begin(),a.end());
 
 
 
