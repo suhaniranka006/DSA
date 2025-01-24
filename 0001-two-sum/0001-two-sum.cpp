@@ -128,23 +128,42 @@ public:
 
 
    //brute force
-int sum=0;
+// int sum=0;
 
-   for(int i=0;i<nums.size();i++){
-    for(int j=i+1;j<nums.size();j++){
-        sum=nums[i]+nums[j];
-        if(sum==target){
-            return {i,j};
+//    for(int i=0;i<nums.size();i++){
+//     for(int j=i+1;j<nums.size();j++){
+//         sum=nums[i]+nums[j];
+//         if(sum==target){
+//             return {i,j};
 
+//         }
+
+//     }
+//    }
+
+//     return {};
+//     }
+
+
+    //tc (n^2)
+    //sc o(n)
+
+
+
+
+        //optimised approach -- hash map
+        unordered_map<int,int>mp;
+        for(int i=0;i<nums.size();i++){
+            int complement=target-nums[i];
+            if(mp.find(complement)!=mp.end()){
+                return {mp[complement],i};
+            }
+            mp[nums[i]]=i;
         }
-
-    }
-   }
-
-    return {};
-    }
+        return {};
 
 
+}
 
 //    vector<vector<int>> sum(vector<int>& nums, int target) {
       //the problem is we nned to create a copy to have original indx 
