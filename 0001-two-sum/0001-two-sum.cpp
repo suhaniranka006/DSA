@@ -2,16 +2,20 @@ class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
 
-        vector<vector<int>> pairs = sum(nums, target);
+            //worst
+       // vector<vector<int>> pairs = sum(nums, target);
 
     // Flatten the 2D result vector into a 1D vector
-    vector<int> result;
-    for (auto& pair : pairs) {
-        result.push_back(pair[0]);
-        result.push_back(pair[1]);
-    }
+    // vector<int> result;
+    // for (auto& pair : pairs) {
+    //     result.push_back(pair[0]);
+    //     result.push_back(pair[1]);
+    // }
 
-    return result;
+    // return result;
+
+
+    //brute
     //    for(int i=0;i<nums.size();i++){
     //        for(int j=i+1;j<nums.size();j++){
     //            int ans=nums[i]+nums[j];
@@ -119,55 +123,75 @@ public:
     // }
 
 
-    //the problem is we nned to create a copy to have original index 
+  
    
 
-    }
 
+   //brute force
+int sum=0;
 
+   for(int i=0;i<nums.size();i++){
+    for(int j=i+1;j<nums.size();j++){
+        sum=nums[i]+nums[j];
+        if(sum==target){
+            return {i,j};
 
-   vector<vector<int>> sum(vector<int>& nums, int target) {
-    vector<pair<int, int>> copy;
-    
-    // Create a copy of the array with values and their original indices
-    for (int i = 0; i < nums.size(); i++) {
-        copy.push_back({nums[i], i});
-    }
-
-    // Sort the array by values (not indices)
-    sort(copy.begin(), copy.end());
-    
-    int first = 0;
-    int last = copy.size() - 1;
-    vector<vector<int>> ans;
-
-    // Two-pointer approach to find pairs that sum to the target
-    while (first < last) {
-        int sum = copy[first].first + copy[last].first;
-        
-        if (sum > target) {
-            last--;
-        } else if (sum < target) {
-            first++;
-        } else {
-            // Found a valid pair, add indices to the result
-            ans.push_back({copy[first].second, copy[last].second});
-            
-            // Skip duplicates for both pointers
-            while (first < last && copy[first].first == copy[first + 1].first) {
-                first++;
-            }
-            while (first < last && copy[last].first == copy[last - 1].first) {
-                last--;
-            }
-            
-            // Move both pointers after processing the pair
-            first++;
-            last--;
         }
+
+    }
+   }
+
+    return {};
     }
 
-    return ans;
-}
+
+
+//    vector<vector<int>> sum(vector<int>& nums, int target) {
+      //the problem is we nned to create a copy to have original indx 
+//     vector<pair<int, int>> copy;
+    
+//     // Create a copy of the array with values and their original indices
+//     for (int i = 0; i < nums.size(); i++) {
+//         copy.push_back({nums[i], i});
+//     }
+
+//     // Sort the array by values (not indices)
+//     sort(copy.begin(), copy.end());
+    
+//     int first = 0;
+//     int last = copy.size() - 1;
+//     vector<vector<int>> ans;
+
+//     // Two-pointer approach to find pairs that sum to the target
+//     while (first < last) {
+//         int sum = copy[first].first + copy[last].first;
+        
+//         if (sum > target) {
+//             last--;
+//         } else if (sum < target) {
+//             first++;
+//         } else {
+//             // Found a valid pair, add indices to the result
+//             ans.push_back({copy[first].second, copy[last].second});
+            
+//             // Skip duplicates for both pointers
+//             while (first < last && copy[first].first == copy[first + 1].first) {
+//                 first++;
+//             }
+//             while (first < last && copy[last].first == copy[last - 1].first) {
+//                 last--;
+//             }
+            
+//             // Move both pointers after processing the pair
+//             first++;
+//             last--;
+//         }
+//     }
+
+//     return ans;
+// }
+
+// //tc o(nlogn)
+// //sc o(n)
 
 };
