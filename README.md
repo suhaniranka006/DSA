@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/suhaniranka006/DSA/tree/master/0001-two-sum) |
+| [0031-next-permutation](https://github.com/suhaniranka006/DSA/tree/master/0031-next-permutation) |
 | [0039-combination-sum](https://github.com/suhaniranka006/DSA/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/suhaniranka006/DSA/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/suhaniranka006/DSA/tree/master/0046-permutations) |
@@ -143,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/suhaniranka006/DSA/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0031-next-permutation](https://github.com/suhaniranka006/DSA/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/suhaniranka006/DSA/tree/master/0075-sort-colors) |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/suhaniranka006/DSA/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0086-partition-list](https://github.com/suhaniranka006/DSA/tree/master/0086-partition-list) |
