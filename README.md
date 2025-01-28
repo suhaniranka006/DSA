@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/suhaniranka006/DSA/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/suhaniranka006/DSA/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/suhaniranka006/DSA/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/suhaniranka006/DSA/tree/master/0054-spiral-matrix) |
 | [0063-unique-paths-ii](https://github.com/suhaniranka006/DSA/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/suhaniranka006/DSA/tree/master/0064-minimum-path-sum) |
 | [0075-sort-colors](https://github.com/suhaniranka006/DSA/tree/master/0075-sort-colors) |
@@ -68,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/suhaniranka006/DSA/tree/master/0048-rotate-image) |
+| [0054-spiral-matrix](https://github.com/suhaniranka006/DSA/tree/master/0054-spiral-matrix) |
 | [0063-unique-paths-ii](https://github.com/suhaniranka006/DSA/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/suhaniranka006/DSA/tree/master/0064-minimum-path-sum) |
 | [0200-number-of-islands](https://github.com/suhaniranka006/DSA/tree/master/0200-number-of-islands) |
@@ -279,5 +281,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/suhaniranka006/DSA/tree/master/0054-spiral-matrix) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/suhaniranka006/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 <!---LeetCode Topics End-->
