@@ -12,33 +12,47 @@
 class Solution {
 public:
     TreeNode* insertIntoBST(TreeNode* root, int val) {
-        if(root==NULL){
-            return new TreeNode(val);
-        }
 
-        TreeNode* curr=root;
-
-        while(true){
-            if(curr->val<=val){
-                if(curr->right!=NULL){
-                    curr=curr->right;
-                }
-                else{
-                    curr->right=new TreeNode(val);
-                    break;
-                }
-            }
-            else{
-                if(curr->left!=NULL){
-                    curr=curr->left;
-                }
-                else{
-                    curr->left=new TreeNode(val);
-                    break;
-                }
-            }
-        }
-        return root;
-        
+            if (root == NULL) { 
+        return new TreeNode(val); // Found the insertion point
     }
+
+    if (val < root->val) {
+        root->left = insertIntoBST(root->left, val); // Go left
+    } else {
+        root->right = insertIntoBST(root->right, val); // Go right
+    }
+
+    return root;
+    
+    } // R
+    //     if(root==NULL){
+    //         return new TreeNode(val);
+    //     }
+
+    //     TreeNode* curr=root;
+
+    //     while(true){
+    //         if(curr->val<=val){
+    //             if(curr->right!=NULL){
+    //                 curr=curr->right;
+    //             }
+    //             else{
+    //                 curr->right=new TreeNode(val);
+    //                 break;
+    //             }
+    //         }
+    //         else{
+    //             if(curr->left!=NULL){
+    //                 curr=curr->left;
+    //             }
+    //             else{
+    //                 curr->left=new TreeNode(val);
+    //                 break;
+    //             }
+    //         }
+    //     }
+    //     return root;
+        
+    // }
 };
