@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/suhaniranka006/DSA/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/suhaniranka006/DSA/tree/master/0064-minimum-path-sum) |
 | [0075-sort-colors](https://github.com/suhaniranka006/DSA/tree/master/0075-sort-colors) |
+| [0078-subsets](https://github.com/suhaniranka006/DSA/tree/master/0078-subsets) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/suhaniranka006/DSA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/suhaniranka006/DSA/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0118-pascals-triangle](https://github.com/suhaniranka006/DSA/tree/master/0118-pascals-triangle) |
@@ -185,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/suhaniranka006/DSA/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/suhaniranka006/DSA/tree/master/0046-permutations) |
 | [0077-combinations](https://github.com/suhaniranka006/DSA/tree/master/0077-combinations) |
+| [0078-subsets](https://github.com/suhaniranka006/DSA/tree/master/0078-subsets) |
 ## Two Pointers
 |  |
 | ------- |
@@ -255,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/suhaniranka006/DSA/tree/master/0078-subsets) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/suhaniranka006/DSA/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/suhaniranka006/DSA/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/suhaniranka006/DSA/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
