@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/suhaniranka006/DSA/tree/master/0064-minimum-path-sum) |
 | [0075-sort-colors](https://github.com/suhaniranka006/DSA/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/suhaniranka006/DSA/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/suhaniranka006/DSA/tree/master/0079-word-search) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/suhaniranka006/DSA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/suhaniranka006/DSA/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0118-pascals-triangle](https://github.com/suhaniranka006/DSA/tree/master/0118-pascals-triangle) |
@@ -46,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/suhaniranka006/DSA/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/suhaniranka006/DSA/tree/master/0094-binary-tree-inorder-traversal) |
 | [0099-recover-binary-search-tree](https://github.com/suhaniranka006/DSA/tree/master/0099-recover-binary-search-tree) |
 | [0100-same-tree](https://github.com/suhaniranka006/DSA/tree/master/0100-same-tree) |
@@ -86,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/suhaniranka006/DSA/tree/master/0054-spiral-matrix) |
 | [0063-unique-paths-ii](https://github.com/suhaniranka006/DSA/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/suhaniranka006/DSA/tree/master/0064-minimum-path-sum) |
+| [0079-word-search](https://github.com/suhaniranka006/DSA/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/suhaniranka006/DSA/tree/master/0200-number-of-islands) |
 | [0999-regions-cut-by-slashes](https://github.com/suhaniranka006/DSA/tree/master/0999-regions-cut-by-slashes) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/suhaniranka006/DSA/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
@@ -187,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/suhaniranka006/DSA/tree/master/0046-permutations) |
 | [0077-combinations](https://github.com/suhaniranka006/DSA/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/suhaniranka006/DSA/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/suhaniranka006/DSA/tree/master/0079-word-search) |
 ## Two Pointers
 |  |
 | ------- |
@@ -247,6 +251,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/suhaniranka006/DSA/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/suhaniranka006/DSA/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/suhaniranka006/DSA/tree/master/0022-generate-parentheses) |
+| [0079-word-search](https://github.com/suhaniranka006/DSA/tree/master/0079-word-search) |
 | [0208-implement-trie-prefix-tree](https://github.com/suhaniranka006/DSA/tree/master/0208-implement-trie-prefix-tree) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/suhaniranka006/DSA/tree/master/1786-count-the-number-of-consistent-strings) |
 ## Trie
