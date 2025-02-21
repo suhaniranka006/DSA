@@ -20,12 +20,31 @@ public:
 
 
     vector<vector<int>> subsets(vector<int>& nums) {
+        // vector<vector<int>>ans;
+        // vector<int>output;
+        // int index=0;
+        // solve(nums,ans,output,index);
+        // return ans;
+
         vector<vector<int>>ans;
-        vector<int>output;
-        int index=0;
-        solve(nums,ans,output,index);
+       
+            int n=nums.size();
+        int subset=1<<n;
+
+        for(int i=0;i<subset;i++){
+             vector<int>temp;
+            for(int j=0;j<n;j++){
+                if(i & (1<<j)){
+                    temp.push_back(nums[j]);
+                }
+            }
+            ans.push_back(temp);
+        }
         return ans;
     }
+
+    //tc o(2^n)
+    //sc o(2^n *n)
 };
 
 
