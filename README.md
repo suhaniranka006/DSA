@@ -265,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0078-subsets](https://github.com/suhaniranka006/DSA/tree/master/0078-subsets) |
+| [0231-power-of-two](https://github.com/suhaniranka006/DSA/tree/master/0231-power-of-two) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/suhaniranka006/DSA/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/suhaniranka006/DSA/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/suhaniranka006/DSA/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
@@ -315,6 +316,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/suhaniranka006/DSA/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/suhaniranka006/DSA/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/suhaniranka006/DSA/tree/master/0189-rotate-array) |
+| [0231-power-of-two](https://github.com/suhaniranka006/DSA/tree/master/0231-power-of-two) |
 | [1635-number-of-good-pairs](https://github.com/suhaniranka006/DSA/tree/master/1635-number-of-good-pairs) |
 ## Recursion
 |  |
@@ -322,6 +324,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/suhaniranka006/DSA/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/suhaniranka006/DSA/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/suhaniranka006/DSA/tree/master/0206-reverse-linked-list) |
+| [0231-power-of-two](https://github.com/suhaniranka006/DSA/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/suhaniranka006/DSA/tree/master/0234-palindrome-linked-list) |
 ## Memoization
 |  |
