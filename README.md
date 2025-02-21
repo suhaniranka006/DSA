@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0118-pascals-triangle](https://github.com/suhaniranka006/DSA/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/suhaniranka006/DSA/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/suhaniranka006/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0136-single-number](https://github.com/suhaniranka006/DSA/tree/master/0136-single-number) |
 | [0189-rotate-array](https://github.com/suhaniranka006/DSA/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/suhaniranka006/DSA/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/suhaniranka006/DSA/tree/master/0200-number-of-islands) |
@@ -265,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0078-subsets](https://github.com/suhaniranka006/DSA/tree/master/0078-subsets) |
+| [0136-single-number](https://github.com/suhaniranka006/DSA/tree/master/0136-single-number) |
 | [0231-power-of-two](https://github.com/suhaniranka006/DSA/tree/master/0231-power-of-two) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/suhaniranka006/DSA/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/suhaniranka006/DSA/tree/master/2323-minimum-bit-flips-to-convert-number) |
