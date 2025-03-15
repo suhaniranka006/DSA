@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0213-house-robber-ii](https://github.com/suhaniranka006/DSA/tree/master/0213-house-robber-ii) |
 | [0283-move-zeroes](https://github.com/suhaniranka006/DSA/tree/master/0283-move-zeroes) |
 | [0416-partition-equal-subset-sum](https://github.com/suhaniranka006/DSA/tree/master/0416-partition-equal-subset-sum) |
+| [0542-01-matrix](https://github.com/suhaniranka006/DSA/tree/master/0542-01-matrix) |
 | [0624-maximum-distance-in-arrays](https://github.com/suhaniranka006/DSA/tree/master/0624-maximum-distance-in-arrays) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/suhaniranka006/DSA/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0733-flood-fill](https://github.com/suhaniranka006/DSA/tree/master/0733-flood-fill) |
@@ -87,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/suhaniranka006/DSA/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/suhaniranka006/DSA/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/suhaniranka006/DSA/tree/master/0226-invert-binary-tree) |
+| [0542-01-matrix](https://github.com/suhaniranka006/DSA/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/suhaniranka006/DSA/tree/master/0733-flood-fill) |
 | [0999-regions-cut-by-slashes](https://github.com/suhaniranka006/DSA/tree/master/0999-regions-cut-by-slashes) |
 | [1036-rotting-oranges](https://github.com/suhaniranka006/DSA/tree/master/1036-rotting-oranges) |
@@ -107,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/suhaniranka006/DSA/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/suhaniranka006/DSA/tree/master/0085-maximal-rectangle) |
 | [0200-number-of-islands](https://github.com/suhaniranka006/DSA/tree/master/0200-number-of-islands) |
+| [0542-01-matrix](https://github.com/suhaniranka006/DSA/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/suhaniranka006/DSA/tree/master/0733-flood-fill) |
 | [0999-regions-cut-by-slashes](https://github.com/suhaniranka006/DSA/tree/master/0999-regions-cut-by-slashes) |
 | [1036-rotting-oranges](https://github.com/suhaniranka006/DSA/tree/master/1036-rotting-oranges) |
@@ -264,6 +267,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/suhaniranka006/DSA/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/suhaniranka006/DSA/tree/master/0213-house-robber-ii) |
 | [0416-partition-equal-subset-sum](https://github.com/suhaniranka006/DSA/tree/master/0416-partition-equal-subset-sum) |
+| [0542-01-matrix](https://github.com/suhaniranka006/DSA/tree/master/0542-01-matrix) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/suhaniranka006/DSA/tree/master/2067-maximum-number-of-points-with-cost) |
 ## Graph
 |  |
