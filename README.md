@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/suhaniranka006/DSA/tree/master/0792-binary-search) |
 | [0890-lemonade-change](https://github.com/suhaniranka006/DSA/tree/master/0890-lemonade-change) |
 | [0999-regions-cut-by-slashes](https://github.com/suhaniranka006/DSA/tree/master/0999-regions-cut-by-slashes) |
+| [1034-subarrays-with-k-different-integers](https://github.com/suhaniranka006/DSA/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/suhaniranka006/DSA/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/suhaniranka006/DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1325-path-with-maximum-probability](https://github.com/suhaniranka006/DSA/tree/master/1325-path-with-maximum-probability) |
@@ -128,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/suhaniranka006/DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0208-implement-trie-prefix-tree](https://github.com/suhaniranka006/DSA/tree/master/0208-implement-trie-prefix-tree) |
 | [0999-regions-cut-by-slashes](https://github.com/suhaniranka006/DSA/tree/master/0999-regions-cut-by-slashes) |
+| [1034-subarrays-with-k-different-integers](https://github.com/suhaniranka006/DSA/tree/master/1034-subarrays-with-k-different-integers) |
 | [1635-number-of-good-pairs](https://github.com/suhaniranka006/DSA/tree/master/1635-number-of-good-pairs) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/suhaniranka006/DSA/tree/master/1786-count-the-number-of-consistent-strings) |
 ## Strongly Connected Component
@@ -308,6 +310,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [1034-subarrays-with-k-different-integers](https://github.com/suhaniranka006/DSA/tree/master/1034-subarrays-with-k-different-integers) |
 | [1635-number-of-good-pairs](https://github.com/suhaniranka006/DSA/tree/master/1635-number-of-good-pairs) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/suhaniranka006/DSA/tree/master/1786-count-the-number-of-consistent-strings) |
 ## Sliding Window
@@ -315,6 +318,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/suhaniranka006/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/suhaniranka006/DSA/tree/master/0209-minimum-size-subarray-sum) |
+| [1034-subarrays-with-k-different-integers](https://github.com/suhaniranka006/DSA/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/suhaniranka006/DSA/tree/master/1046-max-consecutive-ones-iii) |
 ## Prefix Sum
 |  |
