@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0890-lemonade-change](https://github.com/suhaniranka006/DSA/tree/master/0890-lemonade-change) |
 | [0999-regions-cut-by-slashes](https://github.com/suhaniranka006/DSA/tree/master/0999-regions-cut-by-slashes) |
 | [1036-rotting-oranges](https://github.com/suhaniranka006/DSA/tree/master/1036-rotting-oranges) |
+| [1046-max-consecutive-ones-iii](https://github.com/suhaniranka006/DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1325-path-with-maximum-probability](https://github.com/suhaniranka006/DSA/tree/master/1325-path-with-maximum-probability) |
 | [1635-number-of-good-pairs](https://github.com/suhaniranka006/DSA/tree/master/1635-number-of-good-pairs) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/suhaniranka006/DSA/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
@@ -175,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0784-insert-into-a-binary-search-tree](https://github.com/suhaniranka006/DSA/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/suhaniranka006/DSA/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0792-binary-search](https://github.com/suhaniranka006/DSA/tree/master/0792-binary-search) |
+| [1046-max-consecutive-ones-iii](https://github.com/suhaniranka006/DSA/tree/master/1046-max-consecutive-ones-iii) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -313,10 +315,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/suhaniranka006/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/suhaniranka006/DSA/tree/master/0209-minimum-size-subarray-sum) |
+| [1046-max-consecutive-ones-iii](https://github.com/suhaniranka006/DSA/tree/master/1046-max-consecutive-ones-iii) |
 ## Prefix Sum
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/suhaniranka006/DSA/tree/master/0209-minimum-size-subarray-sum) |
+| [1046-max-consecutive-ones-iii](https://github.com/suhaniranka006/DSA/tree/master/1046-max-consecutive-ones-iii) |
 ## Brainteaser
 |  |
 | ------- |
