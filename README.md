@@ -238,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0019-remove-nth-node-from-end-of-list](https://github.com/suhaniranka006/DSA/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0031-next-permutation](https://github.com/suhaniranka006/DSA/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/suhaniranka006/DSA/tree/master/0042-trapping-rain-water) |
+| [0061-rotate-list](https://github.com/suhaniranka006/DSA/tree/master/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/suhaniranka006/DSA/tree/master/0075-sort-colors) |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/suhaniranka006/DSA/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0086-partition-list](https://github.com/suhaniranka006/DSA/tree/master/0086-partition-list) |
@@ -349,6 +350,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/suhaniranka006/DSA/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/suhaniranka006/DSA/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/suhaniranka006/DSA/tree/master/0021-merge-two-sorted-lists) |
+| [0061-rotate-list](https://github.com/suhaniranka006/DSA/tree/master/0061-rotate-list) |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/suhaniranka006/DSA/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0086-partition-list](https://github.com/suhaniranka006/DSA/tree/master/0086-partition-list) |
 | [0092-reverse-linked-list-ii](https://github.com/suhaniranka006/DSA/tree/master/0092-reverse-linked-list-ii) |
