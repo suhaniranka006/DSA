@@ -69,16 +69,29 @@ public:
 
 
     //recursive solution
-    if(head==NULL || head->next==NULL){
-        return head;
-    }
+    // if(head==NULL || head->next==NULL){
+    //     return head;
+    // }
 
+    // ListNode* res=reverseList(head->next);
+    // head->next->next=head;
+    // head->next=NULL;
+    // return res;
+
+
+
+      //recursive
+      if(head==NULL){
+        return NULL;
+      }
+      if(head->next==NULL){
+        return head;
+      }
+    
     ListNode* res=reverseList(head->next);
     head->next->next=head;
     head->next=NULL;
     return res;
-
-    
     }    
 
     
