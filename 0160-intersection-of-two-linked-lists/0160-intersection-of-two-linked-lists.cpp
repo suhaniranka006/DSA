@@ -11,21 +11,23 @@ public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
 
       //this will not work when duplicate values will be there 
-        // unordered_set<int>mp;
-        // while(headA!=NULL){
-        //   mp.insert(headA->val);
-        //   headA=headA->next;
-        // }
-        // while(headB!=NULL){
-        // if(mp.find(headB->val)!=mp.end()){
-        //   return headB;
-        // }
-        // headB=headB->next;
-        // }
-        // return NULL;
+        unordered_set<ListNode*>mp;
+        while(headA!=NULL){
+          mp.insert(headA);
+          headA=headA->next;
+        }
+        while(headB!=NULL){
+        if(mp.find(headB)!=mp.end()){
+          return headB;
+        }
+        headB=headB->next;
+        }
+        return NULL;
 
 
 
+        //tc o(n^2)
+        //sc o(1)
         while(headA!=NULL){
           ListNode* temp=headB;
           while(temp!=NULL){
