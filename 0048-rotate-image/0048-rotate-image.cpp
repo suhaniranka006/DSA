@@ -54,29 +54,43 @@ public:
 
 
     //brute force 
+    //tc o(m*n)
+    //sc o(m*n)
     void rotate(vector<vector<int>>& matrix) {
-      int rows=matrix.size();
-      int cols=matrix[0].size();
-      vector<vector<int>>grid(rows,vector<int>(cols,-1));
+       int rows=matrix.size();
+       int cols=matrix[0].size();
+      // vector<vector<int>>grid(rows,vector<int>(cols,-1));
 
-      f(matrix,rows,cols,grid);
+      // f(matrix,rows,cols,grid);
 
-      //copy to original matrix
+      // //copy to original matrix
+      // for(int i=0;i<rows;i++){
+      //   for(int j=0;j<cols;j++){
+      //     matrix[i][j]=grid[i][j];
+      //   }
+      // }
+
+
+      //better approach
       for(int i=0;i<rows;i++){
-        for(int j=0;j<cols;j++){
-          matrix[i][j]=grid[i][j];
+        for(int j=0;j<i;j++){
+          swap(matrix[i][j],matrix[j][i]);
         }
       }
         
-    }
-
-
-    void f(vector<vector<int>>&matrix,int rows,int cols,vector<vector<int>>&grid){
-
-      for(int i=0;i<rows;i++){
-        for(int j=0;j<cols;j++){
-          grid[j][cols-i-1]=matrix[i][j];
+        //swap
+        for(int i=0;i<rows;i++){
+          reverse(matrix[i].begin(),matrix[i].end());
         }
-      }
     }
+
+
+    // void f(vector<vector<int>>&matrix,int rows,int cols,vector<vector<int>>&grid){
+
+    //   for(int i=0;i<rows;i++){
+    //     for(int j=0;j<cols;j++){
+    //       grid[j][cols-i-1]=matrix[i][j];
+    //     }
+    //   }
+    // }
 };
