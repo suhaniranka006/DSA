@@ -30,16 +30,35 @@ public:
 
 
 //brute force
+//tc o(n^2)
+//sc o(1)
+// for(int i=0;i<nums.size();i++){
+//   for(int j=i+1;j<nums.size();j++){
+//     int sum=nums[i]+nums[j];
+//     if(sum==target){
+//       return {i,j};
+//     }
+//   }
+// }
+//   return {};
+
+
+//optimised -hashmaps
+//tc o(n) //sc o(n)
+//handles -ve and duplicate number do dry run also
+
+unordered_map<int,int>mp;
 
 for(int i=0;i<nums.size();i++){
-  for(int j=i+1;j<nums.size();j++){
-    int sum=nums[i]+nums[j];
-    if(sum==target){
-      return {i,j};
-    }
+  int complement=target-nums[i];
+
+  if(mp.find(complement)!=mp.end()){
+    return {mp[complement],i};
   }
+    mp[nums[i]]=i;
+  
 }
-  return {};
+return {};
 }
 
 
