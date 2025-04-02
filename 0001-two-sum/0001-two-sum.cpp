@@ -2,6 +2,64 @@ class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
 
+
+   //latest solutions
+   //2 pointer -- not applied below sol is wrong never go for this
+   //we cant use 2pointer solution where we need to return the indices bcz it will manipulate original indices
+   //and will give us wrong answer 
+
+//    sort(nums.begin(),nums.end());
+
+//    int st=0;
+//    int end=nums.size()-1;
+
+//    while(st<end){
+//     if((nums[st]+nums[end])>target){
+//       end--;
+//     }
+//     else if((nums[st]+nums[end])<target){
+//       st++;
+//     }
+//     else {
+//       return {st,end};
+//     }
+//    }
+// return {};
+//    }
+
+
+
+//brute force
+
+for(int i=0;i<nums.size();i++){
+  for(int j=i+1;j<nums.size();j++){
+    int sum=nums[i]+nums[j];
+    if(sum==target){
+      return {i,j};
+    }
+  }
+}
+  return {};
+}
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             //worst
        // vector<vector<int>> pairs = sum(nums, target);
 
@@ -151,19 +209,19 @@ public:
 
 
 
-        //optimised approach -- hash map
-        unordered_map<int,int>mp;
-        for(int i=0;i<nums.size();i++){
-            int complement=target-nums[i];
-            if(mp.find(complement)!=mp.end()){
-                return {mp[complement],i};
-            }
-            mp[nums[i]]=i;
-        }
-        return {};
+        // //optimised approach -- hash map
+        // unordered_map<int,int>mp;
+        // for(int i=0;i<nums.size();i++){
+        //     int complement=target-nums[i];
+        //     if(mp.find(complement)!=mp.end()){
+        //         return {mp[complement],i};
+        //     }
+        //     mp[nums[i]]=i;
+        // }
+        // return {};
 
 
-}
+//}
 
 //    vector<vector<int>> sum(vector<int>& nums, int target) {
       //the problem is we nned to create a copy to have original indx 
