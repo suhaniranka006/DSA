@@ -134,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/suhaniranka006/DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/suhaniranka006/DSA/tree/master/0160-intersection-of-two-linked-lists) |
 | [0208-implement-trie-prefix-tree](https://github.com/suhaniranka006/DSA/tree/master/0208-implement-trie-prefix-tree) |
+| [0424-longest-repeating-character-replacement](https://github.com/suhaniranka006/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0999-regions-cut-by-slashes](https://github.com/suhaniranka006/DSA/tree/master/0999-regions-cut-by-slashes) |
 | [1034-subarrays-with-k-different-integers](https://github.com/suhaniranka006/DSA/tree/master/1034-subarrays-with-k-different-integers) |
 | [1635-number-of-good-pairs](https://github.com/suhaniranka006/DSA/tree/master/1635-number-of-good-pairs) |
@@ -301,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0032-longest-valid-parentheses](https://github.com/suhaniranka006/DSA/tree/master/0032-longest-valid-parentheses) |
 | [0079-word-search](https://github.com/suhaniranka006/DSA/tree/master/0079-word-search) |
 | [0208-implement-trie-prefix-tree](https://github.com/suhaniranka006/DSA/tree/master/0208-implement-trie-prefix-tree) |
+| [0424-longest-repeating-character-replacement](https://github.com/suhaniranka006/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/suhaniranka006/DSA/tree/master/1786-count-the-number-of-consistent-strings) |
 ## Trie
 |  |
@@ -327,6 +329,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/suhaniranka006/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/suhaniranka006/DSA/tree/master/0209-minimum-size-subarray-sum) |
+| [0424-longest-repeating-character-replacement](https://github.com/suhaniranka006/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [1034-subarrays-with-k-different-integers](https://github.com/suhaniranka006/DSA/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/suhaniranka006/DSA/tree/master/1046-max-consecutive-ones-iii) |
 ## Prefix Sum
