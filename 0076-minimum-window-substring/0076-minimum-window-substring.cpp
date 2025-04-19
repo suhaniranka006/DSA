@@ -3,6 +3,12 @@ public:
 
 
     string minWindow(string s, string t) {
+
+       // Edge cases: if either string is empty or s is shorter than t
+    if (s.empty() || t.empty() || s.size() < t.size()) {
+        return "";  // Return empty string immediately
+    }
+
       unordered_map<char,int>freqT;
 
 
