@@ -12,19 +12,23 @@
 class Solution {
 public:
 
-        void postorder(vector<int>&result,TreeNode* root){
-            if(!root){
-                return;
-            }
+    //recursive
+    //tc o(n)
+    //sc o(h)
+    //lrn
 
-
-            postorder(result,root->left);
-            postorder(result,root->right);
-            result.push_back(root->val);
-        }
+    void f(TreeNode* root,vector<int>&result){
+      //base case
+      if(root==NULL){
+        return ;
+      }
+      f(root->left,result);
+      f(root->right,result);
+      result.push_back(root->val);
+    }
     vector<int> postorderTraversal(TreeNode* root) {
         vector<int>result;
-        postorder(result,root);
+        f(root,result);
         return result;
     }
 };
