@@ -35,23 +35,56 @@ public:
 
 
           //iterative
+          //tc o(n)
+          //sc o(h)
 
-      vector<int> inorderTraversal(TreeNode* root) {
-        vector<int>res;
-          stack<TreeNode*>st;
-          TreeNode* curr=root;
-          while(curr!=NULL || !st.empty()){
-            while(curr!=NULL){
-              st.push(curr);
-              curr=curr->left;
-            }
-              curr=st.top();
-              st.pop();
-              res.push_back(curr->val);
-              curr=curr->right;
+      // vector<int> inorderTraversal(TreeNode* root) {
+      //   vector<int>res;
+      //     stack<TreeNode*>st;
+      //     TreeNode* curr=root;
+      //     while(curr!=NULL || !st.empty()){
+      //       while(curr!=NULL){
+      //         st.push(curr);
+      //         curr=curr->left;
+      //       }
+      //         curr=st.top();
+      //         st.pop();
+      //         res.push_back(curr->val);
+      //         curr=curr->right;
 
             
+      //     }
+      //     return res;
+      // }
+
+
+          //morris traversal
+        vector<int> inorderTraversal(TreeNode* root) {
+          vector<int>inorder;
+          TreeNode* curr=root;
+
+          while(curr!=NULL){
+            if(curr->left==NULL){
+              inorder.push_back(curr->val);
+              curr=curr->right;
+            }
+            else {
+              TreeNode* prev=curr->left;
+              while(prev->right && prev->right!=curr){
+                prev=prev->right;
+              }
+              if(prev->right==NULL){
+                prev->right=curr;
+                curr=curr->left;
+              }
+              else {
+                prev->right=NULL;
+                inorder.push_back(curr->val);
+                curr=curr->right;
+              }
+            }
           }
-          return res;
-      }
+          return inorder;
+
+        }
 };
