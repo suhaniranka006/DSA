@@ -12,20 +12,24 @@
 class Solution {
 public:
 
-    void preorder(TreeNode* node,vector<int>&result){
-        if(!node){
-            return;
-        }
+    //nlr
+    //recursive
+    //tc o(n)
+    //sc o(n)
 
-        result.push_back(node->val);
-        preorder(node->left,result);
-        preorder(node->right,result);
+    void f(TreeNode* root,vector<int>&res){
+      //base case
+      if(root==NULL){
+        return;
+      }
+      res.push_back(root->val);
+      f(root->left,res);
+      f(root->right,res);
+
     }
-
-
     vector<int> preorderTraversal(TreeNode* root) {
-        vector<int>result;
-        preorder(root,result);
-        return result;
+        vector<int>res;
+        f(root,res);
+        return res;
     }
 };
