@@ -17,18 +17,42 @@ public:
     //sc o(h)
     //lrn
 
-    void f(TreeNode* root,vector<int>&result){
-      //base case
-      if(root==NULL){
-        return ;
-      }
-      f(root->left,result);
-      f(root->right,result);
-      result.push_back(root->val);
-    }
+    // void f(TreeNode* root,vector<int>&result){
+    //   //base case
+    //   if(root==NULL){
+    //     return ;
+    //   }
+    //   f(root->left,result);
+    //   f(root->right,result);
+    //   result.push_back(root->val);
+    // }
+    // vector<int> postorderTraversal(TreeNode* root) {
+    //     vector<int>result;
+    //     f(root,result);
+    //     return result;
+    // }
+
     vector<int> postorderTraversal(TreeNode* root) {
-        vector<int>result;
-        f(root,result);
+      vector<int>result;
+      if(root==NULL){
         return result;
+      }
+      stack<TreeNode*>st;
+      st.push(root);
+
+      while(!st.empty()){
+        TreeNode* curr=st.top();
+        st.pop();
+        result.push_back(curr->val);
+
+        if(curr->left){
+          st.push(curr->left);
+        }
+        if(curr->right){
+          st.push(curr->right);
+        }
+      }
+      reverse(result.begin(),result.end());
+      return result;
     }
 };
