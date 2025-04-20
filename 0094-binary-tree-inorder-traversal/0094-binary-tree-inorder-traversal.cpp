@@ -11,20 +11,21 @@
  */
 class Solution {
 public:
+    //lnr
+    void f(TreeNode* root,vector<int>&res){
+      //recursion
+      //base case
+      if(root==NULL){
+        return;
+      }
 
-    void inorder(vector<int>&result,TreeNode* root){
-        if(!root){
-            return;
-        }
-
-        //lnr
-        inorder(result,root->left);
-        result.push_back(root->val);
-        inorder(result,root->right);
+      f(root->left,res);
+      res.push_back(root->val);
+      f(root->right,res);
     }
     vector<int> inorderTraversal(TreeNode* root) {
-        vector<int>result;
-        inorder(result,root);
-        return result;
+        vector<int>res;
+        f(root,res);
+        return res;
     }
 };
