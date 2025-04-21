@@ -11,7 +11,48 @@
  */
 class Solution {
 public:
+
+//tc o()
     vector<vector<int>> levelOrder(TreeNode* root) {
+
+          vector<vector<int>>result;
+          if(!root){
+            return result;
+          }
+          
+          queue<TreeNode*>q;
+          q.push(root);
+
+          while(!q.empty()){
+            int n=q.size();
+            vector<int>currentlevel;
+
+            for(int i=0;i<n;i++){
+              TreeNode* curr=q.front();
+              q.pop();
+              currentlevel.push_back(curr->val);
+
+              if(curr->left){
+                q.push(curr->left);
+              }
+              if(curr->right){
+                q.push(curr->right);
+              }
+            }
+          
+
+              result.push_back(currentlevel);
+            }
+
+          
+              return result;
+            
+
+            
+          }
+
+    };
+
         // vector<vector<int>> ans;
         // if (!root) return ans;
 
@@ -38,39 +79,38 @@ public:
 
 
 
-        vector<vector<int>>ans;
+        // vector<vector<int>>ans;
 
-        if(!root){
-            return ans;
-        }
+        // if(!root){
+        //     return ans;
+        // }
 
-        queue<TreeNode*>q;
-        q.push(root);
+        // queue<TreeNode*>q;
+        // q.push(root);
 
-        while(!q.empty()){
-            int levelsize=q.size();
-                vector<int>currentlevel;
-            for(int i=0;i<levelsize;i++){
+        // while(!q.empty()){
+        //     int levelsize=q.size();
+        //         vector<int>currentlevel;
+        //     for(int i=0;i<levelsize;i++){
 
-            TreeNode* node=q.front();
-            q.pop();
-                currentlevel.push_back(node->val);
+        //     TreeNode* node=q.front();
+        //     q.pop();
+        //         currentlevel.push_back(node->val);
 
-                if(node->left){
-                    q.push(node->left);
-                }
+        //         if(node->left){
+        //             q.push(node->left);
+        //         }
 
-                if(node->right){
-                    q.push(node->right);
-                }
+        //         if(node->right){
+        //             q.push(node->right);
+        //         }
 
 
-            }
-            ans.push_back(currentlevel);
+        //     }
+        //     ans.push_back(currentlevel);
 
-        }
+        // }
 
-        return ans;
+        // return ans;
     
-    }
-};
+    
