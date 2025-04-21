@@ -11,97 +11,50 @@
  */
 class Solution {
 public:
-    vector<vector<int>>zigzagLevelOrder(TreeNode* root) {
-        // vector<vector<int>>result;
-        // if(root==NULL){
-        //     return result;
-        // }
 
-        // queue<TreeNode*>q;
-        // q.push(root);
-
-        // bool leftToRight=true;
-
-        // while(!q.empty()){
-        //     int size=q.size();
-
-        //     vector<int>ans(size);
-
-        //     //level process
-        //     for(int i=0;i<size;i++){
-        //         TreeNode* frontNode=q.front();
-        //         q.pop();
-
-        //         //normal insert or reverse insert
-        //         int index=leftToRight ? i:size-i-1;
-        //         ans[index]=frontNode->val;
-
-        //         if(frontNode->left){
-        //             q.push(frontNode->left);
-
-        //         }
-
-        //         if(frontNode->right){
-        //             q.push(frontNode->right);
-        //         }
-
-        //     }
-        //         //direction change krni h
-        //         leftToRight=!leftToRight;
-
-                
-        //             result.push_back(ans);
-                
-        //     }
-        
-        //     return result;
-
-
-
+//tc o(n)
+//sc o(n)
+    vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
         vector<vector<int>>result;
 
-
         if(root==NULL){
-            return result;
+          return result;
         }
 
         queue<TreeNode*>q;
-        q.push(root);
-
 
         bool lr=true;
-        
+        q.push(root);
 
         while(!q.empty()){
-           int n=q.size();
-           vector<int>ans(n);
-
-           for(int i=0;i<n;i++){
-            TreeNode* node=q.front();
+          int n=q.size();
+          vector<int>current(n);
+          for(int i=0;i<n;i++){
+            TreeNode* curr=q.front();
             q.pop();
 
 
-            int index = lr ? i:n-i-1;
-
-            ans[index]=node->val;
-
-            if(node->left){
-                q.push(node->left);
-            }            
-
-            if(node->right){
-                q.push(node->right);
-            }
-           }
+              int index =  lr ? i:n-i-1;
+          current[index]=curr->val;
 
 
-                lr=!lr;
-            result.push_back(ans);
+          
+          if(curr->left){
+            q.push(curr->left);
+          }
+          if(curr->right){
+            q.push(curr->right);
+          }
+          
+        
+        }
 
+
+        
+       lr=!lr;
+        result.push_back(current);
         }
 
         return result;
-        
-        
     }
 };
