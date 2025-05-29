@@ -1,102 +1,52 @@
 class Solution {
 public:
-//     void nextPermutation(vector<int>& nums) {
-//         //brute force 
-//         // 1.generate all permutations -- by recursion(sorted)
-//         // 2.linear search for given permutation
-//         // 3.find next permutation
 
-//         //t(n!*n)
-//         //sc(o(n)+o(n))
 
-//         //better for cpp usrs
-//         //we have inbuilt next_permutation stl
+    void nextPermutation(vector<int>& nums) {
 
-//         //next_permutation(nums.begin(),nums.end()); // by stl
+      //brute force
+      //reucrsion
+      //find all permutation 
+      //find current array then find next permutation of this
+      //tc o(n!*logn(n)) // to generate and sort
 
-//     //     //best
-//     //     //apply stl 
-//     //     //logest prefix match
-//     //     //find >i but smallest one
-//     //     //try to place remaining in sorted way
+      //better - stl
+     // next_permutation(nums.begin(),nums.end());
+     //tc o(n)
+     //sc o(1)
 
-//     //     //find break point
-//     //     int ind=-1;
-//     //     int n=nums.size();
-//     //     for(int i=n-2;i>=0;i--){
-//     //         if(nums[i]>nums[i+1]){
-//     //             ind=i; //break pt
-//     //             break;
-//     //         }
-//     //     }
+     //best implementation
+     //find decreasing trend nums[i]<nums[i+1] 
+     //find nums[j]>nums[j-1]
+     //then swap nums[i],nums[j]
+     //then reverse suffix from i+1
 
-//     //     //if break pt doent exist
-//     //     if(ind==-1){
-//     //         reverse(nums.begin(),nums.end());
-            
-//     //     }
-//     //     //find next greater eleemnt
-//     //     for(int i=n-1;i>=0;i--){
-//     //         if(nums[i]>nums[ind]){
-//     //             swap(nums[i],nums[ind]);
-//     //             break;
-//     //         }
-//     //     }
 
-//     //     //reverse remaining
-//     //     reverse(nums.begin()+ind+1,nums.end());
+   //code 
+
+   //tc o(n)
+   //sc o(1)
+   int n=nums.size();
+   int i=n-2;
+   //generate i 
+   while(i>=0 && nums[i]>=nums[i+1]){
+    i--;
+   }
+
+   //generate j
+   if(i>=0){
+    int j=n-1;
+    while(nums[j]<=nums[i]){
+      j--;
+    }
+
+     swap(nums[i],nums[j]);
+   }
+
+  
+
+      //reverse
+      reverse(nums.begin()+i+1,nums.end());
         
-
-        
-//     // }
-
-//     solve(nums);
-//     }
-
-
-//    void solve(vector<int>&nums){
-//          //best
-//         //apply stl 
-//         //logest prefix match
-//         //find >i but smallest one
-//         //try to place remaining in sorted way
-
-//         //find break point
-//         int ind=-1;
-//         int n=nums.size();
-//         for(int i=n-2;i>=0;i--){
-//             if(nums[i]<nums[i+1]){
-//                 ind=i; //break pt
-//                 break;
-//             }
-//         }
-
-//         //if break pt doent exist
-//         if(ind==-1){
-//             reverse(nums.begin(),nums.end());
-//             return ;
-            
-//         }
-//         //find next greater eleemnt
-//         for(int i=n-1;i>ind;i--){
-//             if(nums[i]>nums[ind]){
-//                 swap(nums[i],nums[ind]);
-//                 break;
-//             }
-//         }
-
-//         //reverse remaining
-//         reverse(nums.begin()+ind+1,nums.end());
-        
-// //tc o(n)
-// //sc o(1)
-        
-//     }
-    
-     void nextPermutation(vector<int>& nums) {
-
-      next_permutation(nums.begin(),nums.end());
-
-
-     }
+    }
 };
