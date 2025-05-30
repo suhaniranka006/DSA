@@ -1,49 +1,77 @@
 class Solution {
 public:
+    // bool canPartition(vector<int>& nums) {
+    //   int n=nums.size();
+    //   int sum=0;
+    //   for(int i=0;i<n;i++){
+    //     sum+=nums[i];
+    //   }
+
+    //   if(sum%2!=0){
+    //     return false;
+    //   }
+
+    //   return subset(nums,sum/2,n-1);
+        
+    // }
+
+    // bool subset(vector<int>&nums,int sum,int n){
+    //   if(n<0){
+    //     return false;
+    //   }
+    //   if(sum==0){
+    //     return true;
+    //   }
+
+    //   bool take=false;
+    //   if(nums[n]<=sum){
+    //     take =  subset(nums,sum-nums[n],n-1) ;
+    //   }
+    //   bool nontake = subset(nums,sum,n-1);
+
+    //  return take || nontake;
+    // }
 
 
-//its just like pevious one
-    bool canPartition(vector<int>& nums) {
-        int n=nums.size();
-    int totalSum=0;
-    for(int i=0;i<n;i++){
-        totalSum+=nums[i];
-    }
+     bool canPartition(vector<int>& nums) {
+      int n=nums.size();
+      int sum=0;
+      
+      for(int i=0;i<n;i++){
+        sum+=nums[i];
+      }
 
-    int target=totalSum/2;
-
-    if(totalSum%2!=0){
+      if(sum%2!=0){
         return false;
+      }
+
+        sum=sum/2;
+        vector<vector<int>>dp(n+1,vector<int>(sum+1,-1));
+
+      return subset(nums,sum,n-1,dp);
+        
     }
 
-    vector<vector<int>>dp(n,vector<int>(target+1,-1));
-    return f(n-1,nums,target,dp);
-        
-    }
+    bool subset(vector<int>&nums,int sum,int n,vector<vector<int>>&dp){
+    
 
+      if(sum==0){
+        return true;
+      }
+      if(n<0){
+        return false;
+      }
+      
 
-     bool f(int ind,vector<int>&arr,int sum,vector<vector<int>>&dp){
-        
-        if(sum==0){
-            return true;
-        }
-        
-        if(ind==0){
-            return (arr[0]==sum);
-        }
-            
-            
-            if(dp[ind][sum]!=-1){
-                return dp[ind][sum];
-            }
-            bool notTake=f(ind-1,arr,sum,dp);
-            bool take=false;
-        
-        
-        if(arr[ind]<=sum){
-            take=f(ind-1,arr,sum-arr[ind],dp);
-        }
-        
-        return dp[ind][sum]=take | notTake;
+      if(dp[n][sum]!=-1){
+          return dp[n][sum];
+      }
+      bool take=false;
+      if(nums[n]<=sum){
+        take =  subset(nums,sum-nums[n],n-1,dp) ;
+      }
+      bool nontake = subset(nums,sum,n-1,dp);
+
+     return dp[n][sum] =  take || nontake;
     }
 };
