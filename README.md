@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/suhaniranka006/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/suhaniranka006/DSA/tree/master/0136-single-number) |
 | [0152-maximum-product-subarray](https://github.com/suhaniranka006/DSA/tree/master/0152-maximum-product-subarray) |
+| [0169-majority-element](https://github.com/suhaniranka006/DSA/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/suhaniranka006/DSA/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/suhaniranka006/DSA/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/suhaniranka006/DSA/tree/master/0200-number-of-islands) |
@@ -148,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/suhaniranka006/DSA/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/suhaniranka006/DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/suhaniranka006/DSA/tree/master/0160-intersection-of-two-linked-lists) |
+| [0169-majority-element](https://github.com/suhaniranka006/DSA/tree/master/0169-majority-element) |
 | [0208-implement-trie-prefix-tree](https://github.com/suhaniranka006/DSA/tree/master/0208-implement-trie-prefix-tree) |
 | [0424-longest-repeating-character-replacement](https://github.com/suhaniranka006/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0966-binary-subarrays-with-sum](https://github.com/suhaniranka006/DSA/tree/master/0966-binary-subarrays-with-sum) |
@@ -296,6 +298,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/suhaniranka006/DSA/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/suhaniranka006/DSA/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/suhaniranka006/DSA/tree/master/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/suhaniranka006/DSA/tree/master/0169-majority-element) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/suhaniranka006/DSA/tree/master/0719-find-k-th-smallest-pair-distance) |
 ## Greedy
 |  |
@@ -366,6 +369,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/suhaniranka006/DSA/tree/master/0169-majority-element) |
 | [1034-subarrays-with-k-different-integers](https://github.com/suhaniranka006/DSA/tree/master/1034-subarrays-with-k-different-integers) |
 | [1635-number-of-good-pairs](https://github.com/suhaniranka006/DSA/tree/master/1635-number-of-good-pairs) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/suhaniranka006/DSA/tree/master/1786-count-the-number-of-consistent-strings) |
@@ -399,6 +403,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/suhaniranka006/DSA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/suhaniranka006/DSA/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/suhaniranka006/DSA/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0169-majority-element](https://github.com/suhaniranka006/DSA/tree/master/0169-majority-element) |
 ## Linked List
 |  |
 | ------- |
