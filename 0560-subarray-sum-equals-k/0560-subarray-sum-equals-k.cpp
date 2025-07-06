@@ -3,6 +3,25 @@ public:
   int subarraySum(vector<int>& nums, int k) {
 
 
+int n=nums.size();
+int sum=0;
+int cnt=0;
+
+
+unordered_map<int,int>mp;
+mp[0]=1;
+for(int i=0;i<n;i++){
+  sum+=nums[i];
+
+  if(mp.find(sum-k)!=mp.end()){
+    cnt+=mp[sum-k];
+  }
+  mp[sum]++;
+}
+
+return cnt;
+  }
+
     //brute force 
     //tc o(n^2)
     //sc o(1)
@@ -27,23 +46,23 @@ public:
     //optmised 
     //tc o(n^2)
     //sc o(n)
-    unordered_map<int,int>mp;
-    int cnt=0;
-    int sum=0;
-    mp[0]=1;
-    int n=nums.size();
-    for(int i=0;i<n;i++){
-      sum+=nums[i];
+    // unordered_map<int,int>mp;
+    // int cnt=0;
+    // int sum=0;
+    // mp[0]=1;
+    // int n=nums.size();
+    // for(int i=0;i<n;i++){
+    //   sum+=nums[i];
 
-      //if sum-k seems before
-      if(mp.find(sum-k)!=mp.end()){
-        cnt+=mp[sum-k];
-      }
-      mp[sum]++;
+    //   //if sum-k seems before
+    //   if(mp.find(sum-k)!=mp.end()){
+    //     cnt+=mp[sum-k];
+    //   }
+    //   mp[sum]++;
 
-    }
-    return cnt;
-    }
+    // }
+    // return cnt;
+    // }
 
 
     // unordered_map<int, int> prefixCount;
