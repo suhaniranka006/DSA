@@ -1,26 +1,39 @@
 class Solution {
 public:
     int findDuplicate(vector<int>& nums) {
-     //set approach 
+        int n=nums.size();
+//         Treat array values as pointers to indexes:
 
-     //two pointers
+// Think of the array as a linked list, where nums[i] is the next node
 
-     int slow=nums[0];
-     int fast=nums[0];
+// The duplicate creates a cycle
 
-     do{
-      slow=nums[slow];
-      fast=nums[nums[fast]];
+        //floyd's cycle method
 
-     }
-     while(fast!=slow);
+ 
 
-     slow=nums[0];
-     while(slow!=fast){
-      slow=nums[slow];
-      fast=nums[fast];
-     }
+            int slow=nums[0];
+            int fast=nums[0];
 
-     return slow;
+            //find intersection point
+        do{
+                    slow=nums[slow];
+         fast=nums[nums[fast]];
+
+        } 
+        while(slow!=fast);
+
+
+        //phase 2 
+       //find duplicate
+       slow=nums[0];
+
+       while(slow!=fast){
+        slow=nums[slow];
+        fast=nums[fast];
+
+       }
+
+       return slow;
     }
 };
