@@ -1,44 +1,22 @@
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
-      //brute force 
-      // int n=nums.size();
-      // int ans=INT_MIN;
+      int max_so_far=INT_MIN;
+      int max_end_here=0;
 
-      // for(int i=0;i<n;i++){
-      //   for(int j=0;j<n;j++){
-      //     int sum=0;
-      //       for(int k=i;k<=j;k++){
-      //          sum+=nums[k];
-      //       }
-      //       if(sum>ans){
-      //         ans=sum;
-      //       }
-      //   }
-      // }
-      // return ans;
-      //not for -ve numbers
-      //tco (n^2)
+      for(int i=0;i<nums.size();i++){
+        max_end_here+=nums[i];
 
-
-      //better 
-      //kadane algo 
-      int n=nums.size();
-      int first=INT_MIN;
-      int sec=0;
-
-      for(int i=0;i<n;i++){
-        sec+=nums[i];
-        if(sec>first){
-          first=sec;
+        if(max_end_here>max_so_far){
+            max_so_far=max_end_here;
         }
-        if(sec<0){
-          sec=0;
+
+        if(max_end_here<0){
+            max_end_here=0;
         }
       }
-      return first;
+        return max_so_far;
+      
 
-
-        
     }
 };
